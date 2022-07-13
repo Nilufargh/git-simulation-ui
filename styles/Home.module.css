@@ -109,6 +109,12 @@
   margin-left: 0.5rem;
 }
 
+.wrapper {
+  margin: 2rem;
+  text-align: center;
+  color: beige;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

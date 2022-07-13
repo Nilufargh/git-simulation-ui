@@ -1,7 +1,7 @@
 import Profile from "../../components/Profile";
 import Repos from "../../components/ReposList";
 import homeStyler from "../../styles/Home.module.css"
-
+import PageNotFound from "../../components/404"
 const profile = ({data}) => {
     const {userData, status} = data
     const page = 1
@@ -26,7 +26,7 @@ const profile = ({data}) => {
 
     }else{
         return(
-            <div> Not Found</div>
+            <div> <PageNotFound /></div>
         )
     }
 }
