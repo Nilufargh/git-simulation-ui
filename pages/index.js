@@ -32,11 +32,13 @@ export default function Home() {
   }
 
   return (
-    // We pass the event to the handleSubmit() function on submit.
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="username">Username</label>
-      <input type="text" id="username" name="username" required />
-      <button type="submit">Submit</button>
-    </form>
+    <div className={styles.searchForm}>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="username">Username</label>
+        <input type="text" id="username" name="username" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
   )
 }
