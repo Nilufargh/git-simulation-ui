@@ -126,8 +126,8 @@
 }
 
 .searchForm label {
-  position: absolute;
-  left: -99999px;
+  color: beige;
+  margin-right: 1rem;
 }
 
 .searchForm input[type='text'] {
